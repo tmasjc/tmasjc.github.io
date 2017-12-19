@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "/" 
+baseurl = "/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -9,44 +9,39 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Erlich Bachman"
-title = "Erlich Bachman"
+author = "tmasjc"
+title = "Thomas"
 
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
-enableRobotsTXT = true
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+# enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Erlich Bachman"
-intro = "Startup Guru Extraordinaire"
-description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
-authorimage = "headshot.jpg"
+author = "Thomas Jc"
+intro1 = "Business Intelligence Analyst"
+intro2 = "Machine Learning Engineer"
+description = "Currently Head of Analytics & Strategy @Belvedor (住百家)"
+authorimage = "profile.JPG"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Thomas's personal site"
+keywords = "tmasjc, data, analyst, hugo"
 
 ## Social Accounts
 [params.social]
-github = "<username>"
-instagram = "<username>"
-xing = "<username>"
+github = "tmasjc"
 linkedin = "<username>"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
-email = "you@example.com"
+email = "thomas.jcng@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2017. Thomas Jc (tmasjc) All Rights Reserved"
 poweredby = true
 highlightjs = true
 
@@ -61,9 +56,3 @@ highlightjs = true
     identifier = "about"
     weight = 200
     url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
-
