@@ -10,7 +10,7 @@ layoutdir = "layouts"
 publishdir = "public"
 
 author = "tmasjc"
-title = "Thomas"
+title = "Thomas Jc"
 
 theme = "hugo-goa"
 
@@ -36,7 +36,7 @@ keywords = "tmasjc, data, analyst, hugo"
 ## Social Accounts
 [params.social]
 github = "tmasjc"
-linkedin = "<username>"
+linkedin = ""
 email = "thomas.jcng@gmail.com"
 
 ## Extras
@@ -50,9 +50,4 @@ highlightjs = true
     name = "blog"
     weight = 100
     identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
+    url = "/"
