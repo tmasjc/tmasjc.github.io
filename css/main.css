@@ -84,13 +84,14 @@ div.content
     font-size: 12px;
     font-weight: 200;
 }
-.description
+.jobtitle
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 16px;
     color: #000;
     padding-top: 20px;
+    line-height: 140%;
 }
 .error
 {
@@ -145,10 +146,11 @@ div.content
 }
 .intro
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     font-weight: 200;
     font-size: 16px;
     color: #777;
+    line-height: 140%;
 }
 h3.intro
 {
