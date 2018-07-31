@@ -21,7 +21,7 @@ a:link
 }
 body
 {
-    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -52,7 +52,7 @@ html
 .author h6,
 .author p
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
 }
 .category
 {
@@ -146,11 +146,13 @@ div.content
 }
 .intro
 {
-    font-family: serif;
+    font-family: monospace, serif;
     font-weight: 200;
     font-size: 16px;
     color: #777;
     line-height: 140%;
+    display: inline;
+    background-color: #ffff009c;
 }
 h3.intro
 {
