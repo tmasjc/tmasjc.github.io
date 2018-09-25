@@ -24,7 +24,7 @@ body
     font-family: monospace, sans-serif;
     font-size: 20px;
     font-weight: 400;
-
+    padding: 0 1em;
     width: auto;
     height: 100%;
     min-height: 100%;
@@ -136,8 +136,8 @@ div.content
 }
 .headshot
 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 .info
 {
@@ -150,9 +150,16 @@ div.content
     font-weight: 200;
     font-size: 16px;
     color: #777;
-    line-height: 140%;
-    display: inline;
-    background-color: #ffff009c;
+    line-height: 200%;
+    display: block;
+    border-left: 3px solid #ff5722;
+    margin: 0.2em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+.text-center
+{
+    text-align: left;
 }
 h3.intro
 {
