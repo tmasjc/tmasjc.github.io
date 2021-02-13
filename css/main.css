@@ -55,7 +55,7 @@ html
 .author h6,
 .author p
 {
-    font-family: 'Roboto', serif;
+    font-family: monospace, serif;
 }
 .category
 {
@@ -75,7 +75,7 @@ html
 }
 div.content
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 18px;
     font-weight: 300;
 
@@ -83,13 +83,13 @@ div.content
 }
 .copyright
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 12px;
     font-weight: 200;
 }
 .jobtitle
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
     font-weight: 200;
     font-size: 14px;
     color: #000;
@@ -98,7 +98,7 @@ div.content
 }
 .error
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
 
     margin-top: 100px;
 }
@@ -149,11 +149,11 @@ div.content
 }
 .intro
 {
-    font-family: monospace, serif;
-    font-weight: 200;
-    font-size: 12px;
+    font-family: 'American Typewriter', serif;
+    font-weight: 400;
+    font-size: 14px;
     color: #222;
-    line-height: 1.3;
+    line-height: 1.5;
     display: block;
     border-left: 3px solid #8a6d3b;
     margin: 0.2em 10px;
@@ -172,7 +172,7 @@ h3.intro
 }
 .list
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
 
     margin-top: 50px;
 }
@@ -182,7 +182,7 @@ h3.intro
 }
 .list-entry
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: monospace, serif;
     font-size: 25px;
     font-weight: 400;
 
@@ -215,7 +215,7 @@ h3.intro
 }
 .meta
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -227,7 +227,7 @@ a.meta
 }
 h6.meta
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -238,7 +238,7 @@ section.meta {
 }
 .powered
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace, sans-serif;
     font-size: 12px;
     font-weight: 300;
 }
@@ -280,7 +280,7 @@ header.title
     }
     .list
     {
-        font-family: 'Roboto', sans-serif;
+        font-family: monospace, sans-serif;
 
         margin-top: 30px;
     }
